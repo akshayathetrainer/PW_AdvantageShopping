@@ -1,0 +1,29 @@
+{
+  "name": "pw_advantageshopping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test --grep @regression --project=firefox",
+    "api": "npx playwright test --grep @api",
+    "webkit": "npx playwright test --project=webkit"
+  },
+  "keywords": [],
+  "author": "Akshaya",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0",
+    "allure-playwright": "^3.3.3"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.1",
+    "exceljs": "^4.4.0",
+    "mysql2": "^3.14.3",
+    "path": "^0.12.7",
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.55.0",
+    "pngjs": "^7.0.0"
+  }
+}
